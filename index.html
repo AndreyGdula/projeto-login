@@ -24,16 +24,23 @@
                 <form action="cadastro.php">
                     <div id="div-email">
                         <label for="email">
-                            <span class="material-symbols-outlined">person</span>
+                            <span class="material-symbols-outlined" id="iperson">person</span>
                         </label>
-                        <input type="text" name="email" id="email">
+                        <input type="email" name="email" id="email" required placeholder="Seu E-Mail">
                     </div>
 
                     <div id="div-pass">
                         <label for="pass">
-                            <span class="material-symbols-outlined">key</span>
+                            <span class="material-symbols-outlined" id="ikey">key</span>
                         </label>
-                        <input type="text" name="pass" id="pass">
+                        <input type="password" name="pass" id="pass" required minlength="8" placeholder="Sua Senha">
+                    </div>
+
+                    <div id="div-button-login">
+                        <input type="submit" value="Entrar" id="button-login">
+                    </div>
+                    <div id="div-button-recovery">
+                        <input type="button" value="Esqueci minha senha" id="button-recovery">
                     </div>
                 </form>
             </div>

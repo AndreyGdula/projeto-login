@@ -7,6 +7,7 @@
 
     main > section {
         width: 80vw;
+        height: 280px;
     }
 
     div#screen-image {
@@ -28,16 +29,63 @@
 
     main > section {
         width: 950px;
+        height: 350px;
     }
 
     div#screen-image {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     div#screen-login {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#div-email {
+        height: 50px;
+    }
+
+    div#div-pass {
+        height: 50px;
+    }
+
+    input#email {
+        height: 50px;
+    }
+
+    input#pass {
+        height: 50px;
+    }
+
+    input#button-login {
+        height: 50px;
+    }
+
+    input#button-recovery {
+        height: 50px;
+    }
+
+    span#ikey {
+        font-size: 2em;
+        position: relative;
+        top: 10px;
+        left: 5px;
+    }
+
+    span#iperson {
+        font-size: 2em;
+        position: relative;
+        top: 10px;
+        left: 5px;
+    }
+
+    input#email {
+        width: calc(100% - 40px);
+    }
+
+    input#pass {
+        width: calc(100% - 40px);
     }
 }
